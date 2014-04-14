@@ -9,10 +9,13 @@ such that the user can interact with longer text than could fit on the screen or
 
 **Simply Create a CJLabelScroll**
 
+```
 CJLabelScroll *labelScrollExample = [[CJLabelScroll alloc] initWithFrame:CGRectMake(85, 100, 150, 40)];
+```
 
 **create and size a UILabel**
 
+```
 UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 320, 40)];
 
 label.textColor = [UIColor blackColor];
@@ -23,15 +26,19 @@ label.backgroundColor = [UIColor clearColor];
 
 label.text = @"This is a demo of a scrollable text view that you can use and move around";
 
-[label sizeToFit];*
+[label sizeToFit];
+```
 
 **set the label property of CJLabelScroll**
-
+```
 labelScrollExample.label = label;
+```
     
 **add CJLabelScroll to the parent view**
 
+```
 [self.view addSubview:labelScrollExample];
+```
 
 ##Customisation:
 
