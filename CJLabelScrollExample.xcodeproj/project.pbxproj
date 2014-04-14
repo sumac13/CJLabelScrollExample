@@ -21,6 +21,7 @@
 		19ECF13B18FBADF8000212AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19ECF11D18FBADF8000212AB /* UIKit.framework */; };
 		19ECF14318FBADF8000212AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19ECF14118FBADF8000212AB /* InfoPlist.strings */; };
 		19ECF14518FBADF8000212AB /* CJLabelScrollExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19ECF14418FBADF8000212AB /* CJLabelScrollExampleTests.m */; };
+		19ECF15118FBAE10000212AB /* CJLabelScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 19ECF15018FBAE10000212AB /* CJLabelScroll.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		19ECF14018FBADF8000212AB /* CJLabelScrollExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CJLabelScrollExampleTests-Info.plist"; sourceTree = "<group>"; };
 		19ECF14218FBADF8000212AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		19ECF14418FBADF8000212AB /* CJLabelScrollExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJLabelScrollExampleTests.m; sourceTree = "<group>"; };
+		19ECF14F18FBAE10000212AB /* CJLabelScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJLabelScroll.h; sourceTree = "<group>"; };
+		19ECF15018FBAE10000212AB /* CJLabelScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJLabelScroll.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,7 @@
 		19ECF11F18FBADF8000212AB /* CJLabelScrollExample */ = {
 			isa = PBXGroup;
 			children = (
+				19ECF14E18FBAE10000212AB /* CJLabelScroll */,
 				19ECF12818FBADF8000212AB /* AppDelegate.h */,
 				19ECF12918FBADF8000212AB /* AppDelegate.m */,
 				19ECF12B18FBADF8000212AB /* Main.storyboard */,
@@ -150,6 +154,15 @@
 				19ECF14118FBADF8000212AB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19ECF14E18FBAE10000212AB /* CJLabelScroll */ = {
+			isa = PBXGroup;
+			children = (
+				19ECF14F18FBAE10000212AB /* CJLabelScroll.h */,
+				19ECF15018FBAE10000212AB /* CJLabelScroll.m */,
+			);
+			path = CJLabelScroll;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +264,7 @@
 			files = (
 				19ECF13018FBADF8000212AB /* ViewController.m in Sources */,
 				19ECF12A18FBADF8000212AB /* AppDelegate.m in Sources */,
+				19ECF15118FBAE10000212AB /* CJLabelScroll.m in Sources */,
 				19ECF12618FBADF8000212AB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
