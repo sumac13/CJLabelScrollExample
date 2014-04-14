@@ -10,9 +10,7 @@
 
 @interface CJLabelScroll : UIView <UIScrollViewDelegate>
 
-@property (nonatomic, retain) UIScrollView *scrollView;
 @property (nonatomic, retain) UILabel *label;
-@property (nonatomic, retain) UIView *shadow;
 
 @property (nonatomic, assign) CGFloat animationDuration;
 @property (nonatomic, assign) CGFloat fadeLength;

@@ -8,6 +8,12 @@
 
 #import "CJLabelScroll.h"
 
+@interface CJLabelScroll ()
+
+@property (nonatomic, retain) UIScrollView *scrollView;
+
+@end
+
 @implementation CJLabelScroll
 
 - (id)initWithFrame:(CGRect)frame
