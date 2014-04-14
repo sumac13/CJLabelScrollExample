@@ -2,7 +2,7 @@ CJLabelScrollExample
 ====================
 ###Simple UILabel Scroll View
 
-Simplified and stripped down version of Marquee Label that allows you to add a UILabel or custom label subclass
+Simplified and stripped down version of Marquee Label (https://github.com/cbpowell/MarqueeLabel) that allows you to add a UILabel or custom label subclass
 such that the user can interact with longer text than could fit on the screen or view.
 
 ###Use:
