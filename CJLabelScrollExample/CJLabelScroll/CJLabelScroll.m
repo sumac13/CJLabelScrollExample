@@ -56,24 +56,6 @@
     [self applyLeftGradientMaskForFadeLength:self.fadeLength enableFade:YES];
 }
 
-/*-(void)scrollViewWillEndDragging:(UIScrollView *)scrollView withVelocity:(CGPoint)velocity targetContentOffset:(inout CGPoint *)targetContentOffset
-{
-    if ((*targetContentOffset).x == 0)
-    {
-        //[self animateOutLeftGradient:20];
-        //[self performSelector:@selector(showRightGradient) withObject:nil afterDelay:0.5];
-    }
-    
-    else if ((*targetContentOffset).x == (scrollView.contentSize.width-self.frame.size.width))
-    {
-        [self applyLeftGradientMaskForFadeLength:20 enableFade:YES];
-    }
-    else
-    {
-        [self applyBothGradientMaskForFadeLength:20 enableFade:YES];
-    }
-}*/
-
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
     if (scrollView.contentOffset.x == 0)
